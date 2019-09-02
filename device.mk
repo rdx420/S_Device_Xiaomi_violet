@@ -341,6 +341,10 @@ PRODUCT_PACKAGES += \
     NoCutoutOverlay \
     NotchBarKiller \
     VShapedNotch
+    
+# Device-specific settings
+PRODUCT_PACKAGES += \
+    XiaomiParts   
 
 # Perf
 PRODUCT_PACKAGES += \
