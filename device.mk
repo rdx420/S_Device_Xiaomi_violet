@@ -94,9 +94,6 @@ PRODUCT_PACKAGES += \
     audio.usb.default \
     liba2dpoffload \
     libaudio-resampler \
-    libbatterylistener \
-    libcomprcapture \
-    libexthwplugin \
     libhdmiedid \
     libhfp \
     libqcompostprocbundle \
