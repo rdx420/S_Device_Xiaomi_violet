@@ -92,6 +92,7 @@ PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl:32 \
     audio.a2dp.default \
     audio.primary.sm6150:32 \
+    sound_trigger.primary.sm6150 \
     audio.r_submix.default \
     audio.usb.default \
     liba2dpoffload \
