@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_violet.mk
+    $(LOCAL_DIR)/awaken_violet.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_violet-userdebug \
-    arrow_violet-user \
-    arrow_violet-eng
+    awaken_violet-userdebug \
+    awaken_violet-user \
+    awaken_violet-eng
