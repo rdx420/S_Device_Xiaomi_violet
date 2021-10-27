@@ -13,6 +13,9 @@ $(call inherit-product, vendor/awaken/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 IS_PHONE := true
 
+#Gapps
+WITH_GAPPS := true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := awaken_violet
 PRODUCT_DEVICE := violet
