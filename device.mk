@@ -236,6 +236,9 @@ TARGET_SUPPORTS_GOOGLE_RECORDER := true
 PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl \
     android.hardware.health@2.1-service
+    
+# Signing Keys
+PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/oss/keys/releasekey    
 
 # HIDL
 PRODUCT_PACKAGES += \
