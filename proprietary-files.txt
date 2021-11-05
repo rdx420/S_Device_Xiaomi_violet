@@ -339,6 +339,9 @@ vendor/bin/init.qti.chg_policy.sh|b1301822b93f588c735fa86edc707c47340d0736
 vendor/etc/charger_fstab.qti|8464c139d93f05e86ff9c9d31b3e8617b8d9476e
 vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc|29b23be4f604282abf715f86aec9697175a9aaad
 
+# Power-off charging daemon - from davinci-user 11 RKQ1.200826.002 21.6.11 release-keys
+bin/charger:bin/chargeonlymode|39ca2230f8f33bedda9df15057d90a3e4aced954
+
 # CNE - from LA.UM.9.1.r1-06700-SMxxx0.0
 system_ext/framework/com.quicinc.cne.api-V1.1-java.jar|88da95df5925ab3c173f951cfe56c95699908359
 system_ext/framework/com.quicinc.cne.constants-V1.0-java.jar|b30a8b9a9fad4dfb8ce231084ea0baf99f54931d
