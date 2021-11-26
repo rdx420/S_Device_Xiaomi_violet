@@ -163,7 +163,8 @@ PRODUCT_PACKAGES += \
 
 # Config Store
 PRODUCT_PACKAGES += \
-    disable_configstore
+    android.hardware.configstore@1.0-service \
+    android.hardware.configstore@1.1-service 
 
 # Device-specific settings
 PRODUCT_PACKAGES += \
