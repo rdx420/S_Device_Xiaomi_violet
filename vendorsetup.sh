@@ -10,5 +10,3 @@ git clone https://github.com/ArrowOS/android_hardware_qcom_media.git -b arrow-12
 git clone https://github.com/ArrowOS/android_hardware_qcom_display.git -b arrow-12.0-caf-sm8150 hardware/qcom-caf/sm8150/display
 rm -rf packages/resources/devicesettings
 git clone https://github.com/LineageOS/android_packages_resources_devicesettings -b lineage-19.1 packages/resources/devicesettings
-rm -rf external/ant-wireless/antradio-library
-git clone https://github.com/PixelExperience/external_ant-wireless_antradio-library.git external/ant-wireless/antradio-library
