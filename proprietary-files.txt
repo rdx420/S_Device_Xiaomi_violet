@@ -654,6 +654,9 @@ vendor/lib/libllvm-glnext.so|e2cc7963050bbb21782b47b42cfe23f54d848afc
 vendor/lib/libllvm-qcom.so|a22ead3b1d98004d378e44bded4bb341fe009ba7
 vendor/lib/libpvr.so|82723b3ea51940ae0d07206db949f7c98af7b7da
 
+# Graphics (Adreno - updatable) - from LA.UM.9.1.r1-10900-SMxxx0.0
+-vendor/app/com.qualcomm.qti.gpudrivers.sm6150.api30/com.qualcomm.qti.gpudrivers.sm6150.api30.apk|c3601f567e672f5493fd8015d858d78399b891f2
+
 # Graphics (Vulkan) - from LA.UM.9.1.r1-11400.02-SMxxx0.QSSI12.0
 vendor/lib64/hw/vulkan.adreno.so|8a4573fdb8dea4907c845741e8dbd2efc9094c94
 vendor/lib/hw/vulkan.adreno.so|e592c2ba93a78c9ad0765a81a66cffef25145125
