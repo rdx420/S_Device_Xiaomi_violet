@@ -108,6 +108,8 @@ dalvik.vm.dex2oat64.enabled=true
 ro.vendor.display.sensortype=2
 
 # Dexopt
+pm.dexopt.first-boot=quicken
+pm.dexopt.bg-dexopt=everything
 pm.dexopt.boot=verify
 pm.dexopt.install=speed-profile
 dalvik.vm.image-dex2oat-filter=speed
