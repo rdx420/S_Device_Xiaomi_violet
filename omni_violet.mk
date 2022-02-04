@@ -8,16 +8,16 @@
 # Inherit from violet device
 $(call inherit-product, device/xiaomi/violet/device.mk)
 
+# Inherit GSM telephony parts
+$(call inherit-product, vendor/omni/config/gsm.mk)
+
 # Inherit some common AOSP stuff.
-$(call inherit-product, vendor/awaken/config/common_full_phone.mk)
+$(call inherit-product, vendor/omni/config/common.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 IS_PHONE := true
 
-#Gapps
-WITH_GAPPS := true
-
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := awaken_violet
+PRODUCT_NAME := omni_violet
 PRODUCT_DEVICE := violet
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 7 Pro
