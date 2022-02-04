@@ -392,6 +392,7 @@ PRODUCT_PACKAGES += \
     RcsService
 
 # RIL
+$(call inherit-product, external/json-c/Android.configure.mk)
 PRODUCT_PACKAGES += \
     android.hardware.radio.config@1.0.vendor \
     android.hardware.radio.config@1.1 \
