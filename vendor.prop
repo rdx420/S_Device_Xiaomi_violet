@@ -107,6 +107,15 @@ dalvik.vm.dex2oat64.enabled=true
 # Display post-processing
 ro.vendor.display.sensortype=2
 
+# Dexopt
+pm.dexopt.boot=verify
+pm.dexopt.install=speed-profile
+dalvik.vm.image-dex2oat-filter=speed
+dalvik.vm.image-dex2oat-threads=8
+dalvik.vm.dex2oat-filter=speed
+dalvik.vm.dex2oat-threads=8
+dalvik.vm.dex2oat64.enabled=true
+
 # Dolby
 persist.vendor.audio_fx.current=dolby
 ro.vendor.dolby.dax.version=DS1_2.2.0.0_r1
