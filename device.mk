@@ -76,6 +76,10 @@ PRODUCT_COPY_FILES += \
 # AID/fs configs
 PRODUCT_PACKAGES += \
     fs_config_files
+    
+# APN
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/etc/apns-conf.xml:system/etc/apns-conf.xml
 
 # Audio
 PRODUCT_PACKAGES += \
