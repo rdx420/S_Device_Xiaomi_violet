@@ -264,7 +264,8 @@ PRODUCT_PACKAGES += \
 
 # IFAA manager
 PRODUCT_PACKAGES += \
-    IFAAService
+    IFAAService \
+    vendor.xiaomi.hardware.mlipay@1.1.vendor:64
 
 # IMS
 PRODUCT_PACKAGES += \
