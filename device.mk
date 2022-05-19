@@ -247,7 +247,7 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.1-service
     
 # Signing Keys
-PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/oss/keys/releasekey    
+#PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/oss/keys/releasekey    
 
 # HIDL
 PRODUCT_PACKAGES += \
