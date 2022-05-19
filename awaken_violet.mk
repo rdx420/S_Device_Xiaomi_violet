@@ -13,6 +13,9 @@ $(call inherit-product, vendor/awaken/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 IS_PHONE := true
 
+# Inherit ANX Camera
+$(call inherit-product, vendor/ANXCamera/config.mk)
+
 #Gapps
 WITH_GAPPS := true
 
