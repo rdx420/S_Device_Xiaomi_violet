@@ -12,6 +12,7 @@ $(call inherit-product, device/xiaomi/violet/device.mk)
 $(call inherit-product, vendor/awaken/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 IS_PHONE := true
+TARGET_SUPPORTS_QUICK_TAP := true
 
 # Inherit ANX Camera
 $(call inherit-product, vendor/ANXCamera/config.mk)
