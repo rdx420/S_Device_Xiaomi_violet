@@ -120,9 +120,6 @@ TARGET_USES_VULKAN := true
 # DPM
 BOARD_USES_DPM := true
 
-# DRM
-TARGET_ENABLE_MEDIADRM_64 := true
-
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
 
