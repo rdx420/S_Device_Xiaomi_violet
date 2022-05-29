@@ -41,6 +41,9 @@ PRODUCT_PACKAGES += \
    Clock \
    N_Messaging 
 
+# Headers
+PRODUCT_VENDOR_KERNEL_HEADERS := device/xiaomi/violet/prebuilt/kernel-headers
+
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.audio.low_latency.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.audio.low_latency.xml \
