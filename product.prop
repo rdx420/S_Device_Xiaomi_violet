@@ -76,6 +76,9 @@ ril.subscription.types=RUIM
 # Time
 persist.vendor.delta_time.enable=true
 
+# Watchdog
+ro.hw_timeout_multiplier=3
+
 # Wireless display
 persist.debug.wfd.enable=1
 persist.sys.wfd.virtual=0
