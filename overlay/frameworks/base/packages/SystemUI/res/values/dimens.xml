@@ -35,4 +35,10 @@
     <dimen name="config_rounded_mask_size">136px</dimen>
     <dimen name="config_rounded_mask_size_top">136px</dimen>
     <dimen name="config_rounded_mask_size_bottom">136px</dimen>
+
+    <!-- dimensions for the navigation bar handle -->
+    <dimen name="navigation_handle_radius">2dp</dimen>
+    <dimen name="navigation_handle_bottom">8dp</dimen>
+    <dimen name="navigation_handle_sample_horizontal_margin">10dp</dimen>
+    <dimen name="navigation_home_handle_width">108dp</dimen>
 </resources>
