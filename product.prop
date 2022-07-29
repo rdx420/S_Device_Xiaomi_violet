@@ -18,7 +18,7 @@ ro.bluetooth.library_name=libbluetooth_qti.so
 ro.charger.enable_suspend=true
 
 # Set rendering pipeline mode to Vulkan
-debug.hwui.renderer=skiavk
+debug.hwui.renderer=skiagl
 
 # CNE
 persist.vendor.cne.feature=1
