@@ -403,6 +403,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     librecovery_updater_xiaomi
 
+# Repainter integration
+PRODUCT_PACKAGES += \
+    RepainterServicePriv 
+
 # Remove unwanted packages
 PRODUCT_PACKAGES += \
     RemovePkgs
